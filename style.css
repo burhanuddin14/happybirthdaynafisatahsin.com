@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&family=Dancing+Script:wght@400;500;600;700&family=Lobster&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Roboto+Slab:wght@100;200;300;500;600;700;800;900&family=Slabo+27px&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,600;1,600;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Galada&display=swap');
+*{
+	margin:0;padding:0;
+}
+/*
+font-family: 'Courier Prime', monospace;
+font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Lobster Two', cursive;
+font-family: 'Roboto Slab', serif;
+font-family: 'Slabo 27px', serif;
+font-family: 'Cormorant Garamond', serif;
+font-family: 'Galada', cursive; (bangla)
+*/
+
+body{
+	background:black;width:100%;
+	color:white;
+}
+#header{
+	font-size:25px;background:orange;
+	height:40px;background-size:cover;
+	text-align:center;padding:07px;
+	color:black;font-family: 'Courier Prime', monospace;
+	
+}
+.marq2container{
+	width:100%; color:Yellow;
+	font-size:30px;
+	margin:auto;
+	margin-top:20px;font-family: 'Cormorant Garamond', serif;
+	background:black;
+}
+.marq2container marquee{
+	margin-top:20px;
+}
+.singlemarq1{
+	font-size:50px;
+	animation: burHanuDdinr 1s forwards infinite;
+}
+@keyframes burHanuDdinr {
+	   0%
+	   {color:#FF6FB2;opacity:.3;}
+	   25%
+	   {color:lightblue;opacity:.7;}
+	   50%
+	   {color:blue;opacity:1;
+	   text-shadow: 0 0 2px #80FF11,
+	  				0 0 3px #80FF11,
+					0 0 4px #80FF11,
+					0 0 6px #80FF11;}
+	   70%
+	   {color:lightblue;opacity:.7;}
+	   100%
+	   {color:#FF6FB2;opacity:.3;}
+}
+.singlemarq2{
+	font-size:50px;
+	animation: burHanuDdinrab 1s forwards infinite;
+}
+@keyframes burHanuDdinrab {
+	   0%
+	   {color:blue;opacity:.3;
+	   text-shadow: 0 0 1px #ddd,
+					0 0 2px #ddd,
+					0 0 3px #ddd,
+					0 0 4px #ddd;}
+	   25%
+	   {color:lightblue;opacity:.7;}
+	   50%
+	   {color:#FF6FB2;opacity:1;}
+	   70%
+	   {color:lightblue;opacity:.7;}
+	   100%
+	   {color:blue;opacity:.3;
+	   text-shadow: 0 0 1px #ddd,
+					0 0 2px #ddd,
+					0 0 3px #ddd,
+					0 0 4px #ddd;}
+}
+.singlemarq3{
+	font-size:40px;
+}
+.wholepage{
+	margin:auto;border:px solid white;
+	width:80%;text-align:center;
+}
+.para1{
+	font-family: 'Lobster Two', cursive;
+	font-size:26px;
+	border:1px solid black;
+	width:75%;margin:auto;
+	margin-top:10%;line-height:25px;
+	padding:30px;letter-spacing:1px;
+	text-align:center;background:#271A1A;
+	color:#C8B6CC;border-radius:50px;
+	box-shadow: 0 0 5px #80FF11,
+				0 0 15px #80FF11,
+				0 0 40px #80FF11,
+				0 0 60px #80FF11;
+}
+.para1:hover{
+	border:1px solid white;
+	transform:scale(1.05);background:#162011;
+	color:#ddF;font-family: 'Slabo 27px', serif;
+	box-shadow: 0 0 5px #80FF11,
+				0 0 15px #80FF11,
+				0 0 40px #80FF11,
+				0 0 60px #80FF11,
+				50px 0 90px #80FF11;
+}
+.marq1{
+	font-family: 'Slabo 27px', serif;
+	border:1px solid black;font-size:23px;
+	border-radius:2px;
+	background:pink;width:100%;
+	display:block;color:black;
+	height:30px;padding:5px;
+	paddding-top:5px;
+	margin-top:50px;
+}
+
+.para2{
+	font-size:17px;
+	font-family: 'Slabo 27px', serif;
+	border:1px solid black;
+	border-radius:30px;
+	width:65%;margin:auto;
+	margin-top:30px;padding:12px;
+	line-height:25px;text-align:center;
+	letter-spacing:1px;
+	background:#777;color:white;
+	box-shadow:0 0 10px yellow,
+				0 0 20px yellow,
+				0 -2px 40px yellow;
+	transition:0s;
+}
+.para2:hover{
+	border:1px solid white;
+	font-family: 'Cormorant Garamond', serif;
+	font-size:20px;
+	background:black;color:white;
+	transform:scale(1.05);
+	box-shadow: 0 0 10px yellow,
+				0 0 20px yellow,
+				0 -2px 40px yellow,
+				0 -5px 60px yellow,
+				0 -10px 80px yellow;
+}
+.hbdbigcontainer{
+	width:105%;margin:auto;
+	font-family: 'Slabo 27px', serif;margin-left:-15px;
+	margin-top:38px;
+}
+.hbdbig{
+	font-family: 'Lobster', cursive;
+	text-align:center;width:100%;
+	margin:auto;
+	letter-spacing:8px;font-size:45px;
+	animation-name: bur;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+}
+@keyframes bur {
+   0%
+   {transform: scaleY(1.6);
+    color:#80FF00;}
+   25%
+   {color:orange;}
+   50%
+   {transform: scaleX(1.04);
+   color:red;}
+   70%
+   {color:#4EFF00;}
+   100%
+   {transform: scaleY(1.6);
+   color:#80FF00;}
+}
+.descript{
+	font-size:25px;color:#CEDBC1;}
+.descript .b1{
+	margin-left:-10px;text-decoration:underline;
+	color:#00A5E8;
+}
+.descript span{
+	font-size:19.5px;
+	animation-name: burh;
+	animation-duration: 3s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+}
+@keyframes burh {
+   0%
+   {opacity:.5;}
+   50%
+   {opacity:1;}
+   100%
+   {opacity:.5;}
+}
+
+.wishingDescription{
+	margin-top:38px;line-height:28px;
+	color:#E6AD36;font-size:20px;
+	font-family: 'Roboto Slab', serif;letter-spacing:1px;
+}
+.appricitaion{
+	font-size:20px;margin-top:38px;
+	color:#20F0A3;
+	line-height:28px;font-family: 'Courier Prime', monospace;
+}
+.advice{
+	line-height:28px;margin-top:38px;
+	font-size:20px;font-family: 'Dancing Script', cursive;
+	color:#09C7F7;font-family: 'Slabo 27px', serif;
+	letter-spacing:.2rem;word-spacing:.2rem;
+}
+.aboutEverything{
+	margin-top:38px;
+	line-height:28px;
+	color:#E6AD36;font-size:20px;
+	font-family: 'Roboto Slab', serif;letter-spacing:1px;
+}
+.aboutMeandShe{
+	line-height:28px;margin-top:38px;
+	color:#00FFC5;font-size:20px;
+	font-family: 'Roboto Slab', serif;letter-spacing:1px;
+}
+.beHappy{
+	margin:auto;margin-top:45px;
+	font-size:17px;font-family: 'Slabo 27px', serif;
+	border:1px solid black;
+	border-radius:30px;max-height:60%;
+	width:75%;padding-bottom:20px;
+	line-height:25px;text-align:center;
+	letter-spacing:1px;
+	transition:0s;
+	animation-name: burhan;
+	animation-duration: 1s;
+	animation-fill-mode: forwards;
+	animation-iteration-count: infinite;
+}
+@keyframes burhan {
+	0%
+	{background:#777;color:white;
+	box-shadow: 0 0 10px #00FF77,
+				0 0 20px #00FF77,
+				0 -2px 40px #00FF77;}
+	50%
+	{
+	background:black;
+	transform:scale(1.05);
+	box-shadow: 0 0 10px #00FF77,
+				0 0 20px #00FF77,
+				0 -2px 40px #00FF77,
+				0 -5px 60px #00FF77,
+				0 -10px 80px #00FF77;
+	}
+	100%
+	{background:#777;color:white;
+	box-shadow: 0 0 10px #00FF77,
+				0 0 20px #00FF77,
+				0 -2px 40px #00FF77;}
+}
+.lastSpeech{
+	color:#DACAA6;margin-top:38px;
+	padding:15px;font-size:27px;
+	font-family: 'Slabo 27px', serif;
+}
+center b{
+	padding:10px;font-size:40px;
+	animation: burhanudd 3s forwards infinite;
+}
+@keyframes burhanudd {
+   0%
+   {color:#FF6FB2;opacity:.7;}
+   25%
+   {color:lightblue;}
+   50%
+   {color:blue;opacity:1.5;}
+   70%
+   {color:lightblue;}
+   100%
+   {color:#FF6FB2;opacity:.7;}
+}
+
+.herName{
+	font-size:40px; color:yellow;
+}
+.herName span:last-child{
+	font-size:25px; color:lightblue;
+}
